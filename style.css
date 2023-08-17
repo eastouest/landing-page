@@ -1,15 +1,15 @@
 * {
-    font-family: roboto;
+    font-family: 'Roboto Flex', sans-serif;
 
 }
 
 body {
+    background: #1F2937;
 }
 
 .header {
     font-size: 24px;
     color: #F9FAF8;
-    background: #1F2937;
     padding: 8px;
     display: flex;
     align-items: center;
@@ -28,4 +28,32 @@ ul {
     margin: 0;
     padding: 0;
     gap: 8px;
+}
+
+.hero{
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.hero .title {
+    font-size: 48px;
+}
+
+.hero .subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+.sign-up {
+/* Modified from https://html.form.guide/snippets/css-button-rounded-corners/ */
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    font-size:14px;
+    border:0;
+    cursor:pointer;
+    margin:1em;
 }
