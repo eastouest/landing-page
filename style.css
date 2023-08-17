@@ -73,6 +73,10 @@ button.sign-up {
     margin-left: 48px;
 }
 
+.information{
+    background: rgb(255,255,255);
+}
+
 .quote {
     background: #e5e7eb;
     padding: 16px;
