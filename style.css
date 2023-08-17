@@ -75,6 +75,21 @@ button.sign-up {
 
 .information{
     background: rgb(255,255,255);
+
+}
+
+.information .title{
+    text-align: center;
+}
+
+.information .image{
+    border:#3882f6 solid 1px;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .quote {
