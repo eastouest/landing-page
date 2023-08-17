@@ -53,10 +53,10 @@ ul {
     color: #e5e7eb;
 }
 
-button {
+button, .call-to-action {
     background-color: #3882f6;
 }
-.sign-up {
+button.sign-up {
 /* Modified from https://html.form.guide/snippets/css-button-rounded-corners/ */
     padding:0.6em 2em;
     border-radius: 8px;
@@ -86,4 +86,20 @@ button {
 .quote .signature{
     text-align: right;
     font-weight: bold;
+}
+
+.call-to-action{
+    color: #f9faf8;
+    padding: 16px;
+}
+
+button.call-to-action{
+    border: #fff solid;
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+    margin:1em;
+    max-width: 150px;
 }
