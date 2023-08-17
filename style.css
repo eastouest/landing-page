@@ -35,7 +35,6 @@ ul {
     display: flex;
     color: #f9faf8;
     font-weight: extra-bold;
-    flex-grow: 1/2;
 }
 
 .hero .left{
@@ -72,4 +71,19 @@ button {
 
 .hero .image {
     margin-left: 48px;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 16px;
+}
+
+.quote .text {
+    text-align: center;
+    font-style: italic;
+}
+
+.quote .signature{
+    text-align: right;
+    font-weight: bold;
 }
