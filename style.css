@@ -21,6 +21,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
+    margin: 10px;
 }
 
 ul {
@@ -35,11 +36,14 @@ ul {
     display: flex;
     color: #f9faf8;
     font-weight: extra-bold;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .hero .left{
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 .hero .title {
@@ -51,6 +55,10 @@ ul {
     margin: 0;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero .image {
+    margin-right: 15%;
 }
 
 button, .call-to-action {
@@ -79,7 +87,9 @@ button.sign-up {
 }
 
 .information .title{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
 }
 
 .information .image{
@@ -98,7 +108,7 @@ button.sign-up {
 
 
 .information .subtitle{
-    color: #646668;
+    color: slategray;
     margin: 10px;
     text-align: center;
 }
@@ -115,18 +125,31 @@ button.sign-up {
 }
 
 .quote .text {
-    text-align: center;
+    text-align: justify;
     font-style: italic;
+    padding: 0 25%;
 }
 
 .quote .signature{
     text-align: right;
     font-weight: bold;
+    padding-right: 25%;
+    
 }
 
 .call-to-action{
     color: #f9faf8;
     padding: 16px;
+    margin: 50px;
+    border-radius: 8px;
+}
+
+.call-to-action .title {
+    margin-bottom: 0;
+}
+
+.call-to-action .subtitle{
+    color: #f9faf8;
 }
 
 button.call-to-action{
@@ -143,5 +166,13 @@ button.call-to-action{
 .modal {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.footer{
+    color:  #bac2ca;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
