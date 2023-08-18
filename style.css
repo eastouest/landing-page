@@ -139,3 +139,9 @@ button.call-to-action{
     margin:1em;
     max-width: 150px;
 }
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
